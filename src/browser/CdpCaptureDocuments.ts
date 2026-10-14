@@ -258,6 +258,7 @@ export function* captureDom(
       if (
         nodeType === undefined ||
         nodeName === undefined ||
+        nodeName.length === 0 ||
         nodeValue === undefined ||
         parent === undefined ||
         parent < -1 ||
